@@ -1,6 +1,6 @@
 <img src="https://www.gitpod.io/images/media-kit/logo-dark-theme.png" width="250">
 
-# Using Gitpod Workspace to connect to Vault 🍊
+# Connecting Your Gitpod Workspace To Vault 🍊
 This guide demonstrates how to use your Gitpod workspace to retrieve secrets from Hashicorp Vault using **OpenID Connect (OIDC) method**. This approach leverages your current OIDC provider for authentication, eliminating the need to store multiple secrets as environment variables in the Gitpod dashboard.
 
 ## Pre-requisites
