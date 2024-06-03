@@ -3,17 +3,18 @@
 # Always ready-to-code 🍊
 Gitpod is the developer platform for on-demand Cloud Development Environments (CDEs). Say goodbye to slow onboarding and unmanageable dev environments. Gitpod removes pain and frustration from your developer experience, helps you deliver software faster, and makes you more secure and compliant.
 
-## Why Gitpod?
-Here are some of the reasons devops, security, and finance teams love Gitpod:
+# Using Vault CLI with Gitpod Workspace via an OIDC Provider
+This guide demonstrates how to use your Gitpod workspace to retrieve secrets from Hashicorp Vault using the OIDC method. This approach leverages your current OIDC provider for authentication, eliminating the need to store multiple secrets as environment variables in the Gitpod dashboard.
 
-👩🏻‍💻 Faster developer onboarding  
-⚙️ Eliminate software dependency issues  
-🤝 Collaborate async or in real time  
-☁️ Utilize the compute power of the cloud  
-💰 Save money on hardware and virtual infrastructure  
-🔐 Secure and protect your code and dev environments
+## Prerequisites
+- A sample Vault cluster (not for production use)
+- VSCode Desktop connected to your Gitpod workspace
+- Environment variables set in User Settings: `VAULT_ADDR`, `VAULT_NAMESPACE`, and `VAULT_TOKEN`
 
-## Gitpod Demo
-This repo contains an HashiCorp Vault environment for experiments and demos. Launch it with the Gitpod button or the link below:
+## Step-by-Step Procedure
 
-https://gitpod.io/#https://github.com/gitpod-demos/hcp-vault-integration
+### 1. Configure Environment Variables
+Ensure the following environment variables are set in your Gitpod User Settings:
+- `VAULT_ADDR`
+- `VAULT_NAMESPACE`
+- `VAULT_TOKEN`
