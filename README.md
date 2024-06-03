@@ -7,9 +7,9 @@ Gitpod is the developer platform for on-demand Cloud Development Environments (C
 This guide demonstrates how to use your Gitpod workspace to retrieve secrets from Hashicorp Vault using the OIDC method. This approach leverages your current OIDC provider for authentication, eliminating the need to store multiple secrets as environment variables in the Gitpod dashboard.
 
 ## Prerequisites
-- A sample Vault cluster (not for production use)
-- VSCode Desktop connected to your Gitpod workspace
-- Environment variables set in User Settings: `VAULT_ADDR`, `VAULT_NAMESPACE`, and `VAULT_TOKEN`
+- A Vault cluster.
+- VSCode Desktop connected to your Gitpod workspace.
+- Environment variables set in User Settings: `VAULT_ADDR`, `VAULT_NAMESPACE`, and `VAULT_TOKEN`.
 
 ## Step-by-Step Procedure
 
